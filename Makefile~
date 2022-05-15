@@ -1,0 +1,42 @@
+JAVAC=/usr/bin/javac
+.SUFFIXES: .java .class
+
+SRCDIR=src
+BINDIR=bin
+LIBRARY=lib
+SRCDIRX=./src
+DOCDIR=./java_doc
+SOURCELIST=$(shell find $(SRCDIRX) -name '*.java' | sed "s,[.]/,,g")
+
+$(BINDIR)/%.class:$(SRCDIR)/%.java
+	$(JAVAC) -d $(BINDIR)/ -cp ".:lib/*:$(BINDIR)" $<
+
+CLASSES = clientObj.class realiableThread.class senderThread.class receiverThread.class udpClient.class udpServer.class udpDriver.class
+CLASS_FILES=$(CLASSES:%.class=$(BINDIR)/%.class)
+
+default: $(CLASS_FILES)
+
+clean:
+	rm $(BINDIR)/*.class
+	@if [ -d $(DOCDIR) ]; then rm -r $(DOCDIR); fi;
+
+runServerWAN_error:
+	@java -cp bin udpDriver "sWan" "true"
+	
+runServerWAN_noerror:
+	@java -cp bin udpDriver "sWan" "false"
+	
+runServerLOCAL_error:
+	@java -cp bin udpDriver "sLocal" "true"
+	
+runServerLOCAL_noerror:
+	@java -cp bin udpDriver "sLocal" "false"
+	
+runClientWAN:
+	@java -cp bin udpDriver "cWan"
+
+runClientLOCAL:
+	@java -cp bin udpDriver "cLocal"
+	
+runJavaDoc:
+	@javadoc -d $(DOCDIR) -linksource $(SOURCELIST)

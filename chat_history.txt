@@ -1,0 +1,57 @@
+(12-04-2021 14:01:41) [RSNJOS005] has disconnected.
+(12-04-2021 14:03:09) [RSNJOS005] Howdy
+(12-04-2021 14:03:20) [FSHJAR002] hey there
+(12-04-2021 14:03:29) [RSNJOS005] Hello!
+(12-04-2021 14:03:35) [RSNJOS005] I am chatting in the chat
+(12-04-2021 14:04:11) [RSNJOS005] message
+(12-04-2021 14:04:39) [RSNJOS005] has disconnected.
+(12-04-2021 14:05:17) [FSHJAR002] hhello
+(12-04-2021 14:05:44) [FSHJAR002] khello
+(12-04-2021 14:05:56) [RSNJOS005] message
+(12-04-2021 14:06:09) [FSHJAR002] @history!
+(12-04-2021 14:06:25) [RSNJOS005] groovy baby yeah
+(12-04-2021 14:08:02) [RSNJOS005] checking hisotry
+(12-04-2021 14:08:24) [RSNJOS005] has disconnected.
+(12-04-2021 14:15:55) [FSHJAR002] hey
+(12-04-2021 14:15:56) [FSHJAR002] hi
+(12-04-2021 14:16:12) @shutdown@ by user: FSHJAR002
+(12-04-2021 14:22:33) [FSHJAR002] hello
+(12-04-2021 14:22:45) [RSNJOS005] Hi jarred. Where is pren?
+(12-04-2021 14:23:09) [FSHJAR002] He is at the beach
+(12-04-2021 14:23:36) [RSNJOS005] There he is
+(12-04-2021 14:23:49) [NDXPRE050] Good day
+(12-04-2021 14:24:05) [FSHJAR002] I am disconnecting now
+(12-04-2021 14:24:08) [NDXPRE050] Goodbye
+(12-04-2021 14:24:12) [FSHJAR002] has disconnected.
+(12-04-2021 14:24:32) [RSNJOS005] Welcome back
+(12-04-2021 14:24:35) [FSHJAR002] hey
+(12-04-2021 14:24:57) [NDXPRE050] It seems i've joined late let me check the chat history
+(12-04-2021 14:26:21) [RSNJOS005] Leaving now!
+(12-04-2021 14:26:26) [RSNJOS005] has disconnected.
+(12-04-2021 14:28:59) @shutdown@ by user: FSHJAR002
+(12-04-2021 14:33:40) [FSHJAR002] hello
+(12-04-2021 14:34:02) [RSNJOS005] we should keep sending messages
+(12-04-2021 14:34:02) [NDXPRE050] Hey there!
+(12-04-2021 14:34:14) [NDXPRE050] My wifi is bad i hope my messages dont corrupt
+(12-04-2021 14:34:29) [NDXPRE050] Hello
+(12-04-2021 14:34:30) [FSHJAR002] That is unfortunate!
+(12-04-2021 14:34:42) [RSNJOS005] My message got corrupted at the server
+(12-04-2021 14:35:54) @shutdown@ by user: FSHJAR002
+(12-04-2021 18:33:04) [admin] hey fuckfaces
+(12-04-2021 18:33:36) [FSHJAR002] hey there
+(12-04-2021 18:33:54) [admin] sorry for my profanity don't grade me down
+(12-04-2021 18:34:26) @shutdown@ by user: FSHJAR002
+(12-04-2021 18:39:55) [admin] hello
+(12-04-2021 18:42:31) [FSHJAR002] hey there
+(12-04-2021 18:42:37) [admin] i am admin
+(12-04-2021 18:43:13) @shutdown@ by user: FSHJAR002
+(04-05-2021 18:35:10) [FSHJAR002] HELLO
+(04-05-2021 18:35:44) [RSNJOS005] hi there
+(04-05-2021 18:35:49) [RSNJOS005] hello
+(12-05-2022 20:17:44) [FSHJAR002] hELLO
+(12-05-2022 20:18:45) [admin] hi jarred
+(12-05-2022 20:18:56) [FSHJAR002] hi admin How are you?
+(12-05-2022 20:19:09) [admin] I am fine, thanks for asking
+(12-05-2022 20:19:19) @shutdown@ by user: admin
+(12-05-2022 20:20:08) [admin] has disconnected.
+(14-05-2022 21:44:42) @shutdown@ by user: FSHJAR002
