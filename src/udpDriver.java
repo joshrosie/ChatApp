@@ -26,13 +26,7 @@ public class udpDriver {
     String uName;
     udpServer server;
 
-    try {
-      PGPSecretKeyRing secretKeys = PGPainless.generateKeyRing()
-      .modernKeyRing("Romeo <romeo@montague.lit>", "I defy you, stars!");
-  
-    } catch (Exception e) {
-      System.out.println(e);
-    }
+    
    
     switch (args[0].charAt(0)) { //First character of cmd line input/
       case 's': // 's' For server
