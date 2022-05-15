@@ -1,0 +1,369 @@
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Sun May 15 12:50:19 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `Makefile', line 9)
+DOCDIR = ./java_doc
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/joshuarosenthal/NIS_FINAL_FINAL
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/2p/5y5t601s7q9cxmk9_60z37xc0000gn/T/vscode-ipc-74e6f07a-5a57-4883-8485-3acb0d2681d1.sock
+# environment
+VSCODE_CWD = /
+# makefile (from `Makefile', line 16)
+CLASS_FILES = $(CLASSES:%.class=$(BINDIR)/%.class)
+# environment
+PATH = /opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+# environment
+LaunchInstanceID = 6D6544B0-4F27-46AA-9A0A-A72331607E8D
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.avr6i4Nns2/Listeners
+# makefile (from `Makefile', line 4)
+SRCDIR = src
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/joshuarosenthal/NIS_FINAL_FINAL
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/joshuarosenthal
+# makefile (from `Makefile', line 8)
+SRCDIRX = ./src
+# makefile (from `Makefile', line 10)
+SOURCELIST = $(shell find $(SRCDIRX) -name '*.java' | sed "s,[.]/,,g")
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/joshuarosenthal/Library/Application Support/Code/CachedData/57fd6d0195bb9b9d1b49f6da5db789060795de47
+# environment
+LOGNAME = joshuarosenthal
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from `Makefile', line 15)
+CLASSES = clientObj.class realiableThread.class senderThread.class receiverThread.class udpClient.class udpServer.class udpDriver.class
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# makefile (from `Makefile', line 5)
+BINDIR = bin
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = joshuarosenthal
+# makefile
+.DEFAULT_GOAL := default
+# makefile (from `Makefile', line 6)
+CLASSPATH = ".:lib/*:$(BINDIR)"
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/2p/5y5t601s7q9cxmk9_60z37xc0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/joshuarosenthal/Library/Application Support/Code/1.67.0-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.47540851.47540857
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+SECURITYSESSIONID = 186ac
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# makefile (from `Makefile', line 1)
+JAVAC = /usr/bin/javac
+# environment
+LANG = C
+# environment
+VSCODE_PID = 9796
+# variable set hash-table stats:
+# Load=78/1024=8%, Rehash=0, Collisions=2/107=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777231, inode 48098689): 15 files, no impossibilities.
+# src (device 16777231, inode 48098766): No files, no impossibilities so far.
+
+# 15 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+bin/%.class: src/%.java
+#  commands to execute (from `Makefile', line 13):
+	$(JAVAC) -d $(BINDIR)/ -cp $(CLASSPATH) $<
+	
+
+%.java:
+
+%.class:
+
+# 3 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+bin/senderThread.class:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bin/clientObj.class:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+runClientWAN:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 37):
+	@java -cp $(CLASSPATH)udpDriver "cWan"
+	
+
+runServerLOCAL_noerror:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 34):
+	@java -cp $(CLASSPATH) udpDriver "sLocal" "false"
+	
+
+runClientLOCAL:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 40):
+	@java -cp $(CLASSPATH) udpDriver "cLocal"
+	
+
+.SUFFIXES: .java .class
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-15 12:47:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.class:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+runServerWAN_error:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 25):
+	@java -cp $(CLASSPATH) udpDriver "sWan" "true"
+	
+
+# Not a target:
+bin/udpDriver.class:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+default: bin/clientObj.class bin/realiableThread.class bin/senderThread.class bin/receiverThread.class bin/udpClient.class bin/udpServer.class bin/udpDriver.class
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+runJavaDoc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 43):
+	@javadoc -d $(DOCDIR) -linksource $(SOURCELIST)
+	
+
+# Not a target:
+bin/realiableThread.class:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bin/receiverThread.class:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.java:
+ 
+make: *** No rule to make target `all'.  Stop.
+
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bin/udpClient.class:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 21):
+	rm $(BINDIR)/*.class
+	@if [ -d $(DOCDIR) ]; then rm -r $(DOCDIR); fi;
+	
+
+runServerLOCAL_error:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 31):
+	@java -cp $(CLASSPATH) udpDriver "sLocal" "true"
+	
+
+# Not a target:
+bin/udpServer.class:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+runServerWAN_noerror:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 28):
+	@java -cp $(CLASSPATH) udpDriver "sWan" "false"
+	
+
+# files hash-table stats:
+# Load=22/1024=2%, Rehash=0, Collisions=0/46=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun May 15 12:50:19 2022
+
+ 

@@ -12,7 +12,7 @@ SOURCELIST=$(shell find $(SRCDIRX) -name '*.java' | sed "s,[.]/,,g")
 $(BINDIR)/%.class:$(SRCDIR)/%.java
 	$(JAVAC) -d $(BINDIR)/ -cp $(CLASSPATH) $<
 
-CLASSES = clientObj.class realiableThread.class senderThread.class receiverThread.class udpClient.class udpServer.class udpDriver.class
+CLASSES = clientObj.class senderThread.class receiverThread.class udpClient.class udpServer.class udpDriver.class
 CLASS_FILES=$(CLASSES:%.class=$(BINDIR)/%.class)
 
 default: $(CLASS_FILES)
