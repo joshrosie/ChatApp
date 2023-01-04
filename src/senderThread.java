@@ -92,8 +92,6 @@ public class senderThread implements Runnable {
         
           secretKey = PGPainless.generateKeyRing().simpleRsaKeyRing(uname, RsaLength._4096);
           publicKeys = PGPainless.extractCertificate(secretKey);
-          System.out.println(secretKey.getPublicKey().getClass());
-          System.out.println(secretKey.getSecretKey().getClass());
         } catch (InvalidAlgorithmParameterException | NoSuchAlgorithmException | PGPException e) {
           // TODO Auto-generated catch block
           e.printStackTrace();

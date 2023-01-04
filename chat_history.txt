@@ -60,3 +60,4 @@
 (15-05-2022 17:19:09) [RSNJOS005] @deactivate@
 (15-05-2022 17:19:16) [RSNJOS005] @end@
 (15-05-2022 17:19:18) [RSNJOS005] has disconnected.
+(15-05-2022 17:23:18) @shutdown@ by user: RSNJOS005

@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/joshuarosenthal/NIS_FINAL_FINAL'
+/usr/bin/javac -d bin/ -cp ".:lib/*:bin" src/clientObj.java
+/usr/bin/javac -d bin/ -cp ".:lib/*:bin" src/senderThread.java
+/usr/bin/javac -d bin/ -cp ".:lib/*:bin" src/receiverThread.java
+/usr/bin/javac -d bin/ -cp ".:lib/*:bin" src/udpClient.java
+/usr/bin/javac -d bin/ -cp ".:lib/*:bin" src/udpServer.java
+/usr/bin/javac -d bin/ -cp ".:lib/*:bin" src/udpDriver.java
+make: Leaving directory `/Users/joshuarosenthal/NIS_FINAL_FINAL'
+ 
